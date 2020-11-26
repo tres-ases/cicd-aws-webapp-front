@@ -10,7 +10,8 @@ import {
 	TableCell,
 	TableContainer,
 	TableHead,
-	TableRow, Typography
+	TableRow,
+	Typography
 } from "@material-ui/core";
 
 const Users: React.FC = () => {
@@ -21,7 +22,6 @@ const Users: React.FC = () => {
 			.then(users => setUsers(users));
 	}, [])
 
-	console.log(users);
 	return (
 		<Container>
 			<Typography variant="h4" component="h1" gutterBottom>Usuarios</Typography>

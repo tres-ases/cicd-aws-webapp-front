@@ -1,4 +1,4 @@
-name: CI
+name: Front Actions
 on:
   push:
     branches: [ dev ]

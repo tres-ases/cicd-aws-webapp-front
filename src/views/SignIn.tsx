@@ -22,7 +22,7 @@ const SignIn: React.FC = () => {
 
 	return (
 		<Container>
-			<Typography variant="h1" component="h2" gutterBottom>
+			<Typography variant="h5" component="h5" gutterBottom>
 				Autenticación
 			</Typography>
 			<Grid container direction="column" justify="center" alignItems="center">

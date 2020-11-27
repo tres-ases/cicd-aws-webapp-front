@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Auth} from 'aws-amplify';
-import {Button, Container, Grid, TextField,} from '@material-ui/core';
+import {Button, Container, Grid, TextField, Typography,} from '@material-ui/core';
 
 const SignIn: React.FC = () => {
 	const [email, setEmail] = useState('');
@@ -22,6 +22,9 @@ const SignIn: React.FC = () => {
 
 	return (
 		<Container>
+			<Typography variant="h1" component="h2" gutterBottom>
+				Autenticación
+			</Typography>
 			<Grid container direction="column" justify="center" alignItems="center">
 				<Grid item>
 					<TextField id="email" label="Correo Electrónico" variant="filled"
